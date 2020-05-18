@@ -48,7 +48,15 @@ shotstwo.addEventListener("click", function () {
 let reset = document.querySelector("#reset-button")
 let resetNum = document.querySelector("#num-resets")
 
-reset.addEventListener("click", function () {
-    let clearRest = 
-   
+reset.addEventListener("click", function() {
+    let reset2 = Number(resetNum.innerHTML) + 1
+    resetNum.innerHTML = reset2
+    goals.innerHTML = 0
+    teamNum.innerHTML = 0
+    teamTwoShots.innerHTML = 0
+    teamoneshots.innerHTML = 0
 });
+
+ 
+   
+
